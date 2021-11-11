@@ -1,0 +1,3 @@
+python3 projeto-dio-aws-etapa-1.py -r emr s3://dio-live-datalake-angelovelloso/data/*.txt --output-dir=s3://dio-live-datalake-angelovelloso/output/etapa_1 --cloud-tmp-dir=s3://dio-live-datalake-angelovelloso/temp/
+
+python3 projeto-dio-aws-etapa-2.py -r emr s3://dio-live-datalake-angelovelloso/output/etapa_1/part* --output-dir=s3://dio-live-datalake-angelovelloso/output/etapa_2 --cloud-tmp-dir=s3://dio-live-datalake-angelovelloso/temp/
